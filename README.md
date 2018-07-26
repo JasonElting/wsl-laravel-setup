@@ -11,7 +11,7 @@ Whats installed :
 - MySQL
 - NodeJS `v0.33.0`
 - Composer `latest`
-- NVM `atest`
+- NVM `latest`
 - Laravel `latest`
 
 ### Liense
