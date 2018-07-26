@@ -39,6 +39,6 @@ composer global require “laravel/installer”
 export PATH=~/.config/composer/vendor/bin:$PATH 
 source ~/.profile
 
-sudo apt-get
+sudo apt-get install npm
 npm install -g webpack
 npm install -g bower
