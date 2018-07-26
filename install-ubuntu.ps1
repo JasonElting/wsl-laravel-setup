@@ -15,6 +15,7 @@ Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile ~/Ubuntu.zip -Use
 Expand-Archive ~/Ubuntu.zip ~/Ubuntu *>$null
 Remove-Item -path ~/Ubuntu.zip
 
+Write-Host "[script] Make your Ubuntu username the same name as in Windows"
 Write-Host "[script] Close Ubuntu bash window after username & password creation"
 
 Start-Process -FilePath "~/Ubuntu/ubuntu.exe" -wait
