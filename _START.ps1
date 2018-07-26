@@ -1,2 +1,2 @@
 # Starts main setup as administrator
-Start-Process powershell.exe -Verb Runas "$PSScriptRoot\install-ubuntu.ps1"
+Start-Process powershell.exe -Verb Runas ". .\install-ubuntu.ps1"
